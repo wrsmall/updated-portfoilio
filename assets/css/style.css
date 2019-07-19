@@ -1,0 +1,28 @@
+
+.slate {
+    background-color:lightsteelblue;
+}
+
+
+.center {
+    text-align: center;
+    
+  }
+.width {
+    width: 90%;
+    margin-right:5%;
+    margin-left: 5%;
+  }
+.myfont {
+    font-family: 'Permanent Marker', cursive;
+}
+.w-85 {
+    width: 85%;
+}
+.float{
+    float: right;
+}
+.lb{
+    line-height: 50%;
+}
+ 
