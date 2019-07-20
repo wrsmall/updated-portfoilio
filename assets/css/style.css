@@ -6,6 +6,7 @@
 
 .center {
     text-align: center;
+    align-content: center;
     
   }
 .width {
@@ -25,4 +26,45 @@
 .lb{
     line-height: 50%;
 }
- 
+
+.bottom {
+    position: fixed;
+    bottom: 0%;
+    left: 35%;
+}
+.i1 {
+    position: fixed;
+    bottom: 73%;
+    left:60%;
+}
+.i2 {
+    position: fixed;
+    bottom: 55%;
+    left:55%;
+}
+.i3 {
+    position: fixed;
+    bottom: 65%;
+    left:40%;
+}
+.i4 {
+    position: fixed;
+    bottom: 45%;
+    left:35%;
+}
+.i5 {
+    position: fixed;
+    bottom: 35%;
+    left:60%;
+}
+.spin {
+
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+}
+  
