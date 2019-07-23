@@ -2,15 +2,13 @@
 <html lang="en">
 
 <head>
-    <title>Willaim Small's Portfolio Website</title>
+    <title>William Smalls Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6db9f8f037.js"></script>
-    
 </head>
-
 
 <body class="bg-secondary">
     <div class="width p-2 mt-2 rounded slate ">
@@ -18,6 +16,8 @@
         <p class="center myfont h2">William Small</p>
         <a  class="center" href="https://www.linkedin.com/in/william-small-b5a45525/"><img class="center" src="assets/images/linkedin.png"></a>
         <a  class="center" href="https://github.com/"><img class="center ml-3" src="assets/images/github.png"></a>
+        <p class="center myfont h2">Contact</p>
+
     </div>
     <div class="container ">
         <div class="row">
@@ -31,35 +31,49 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-6 col-sm-6 col-lg-6">
-                   <div id="html" class="i1 myfont spin"><p class="h2 mt-2">&lt;html&gt;</p></div>
-                   <div id="css" class="i2 myfont spin"><p class="h2 mt-2">css {}</p></div>
-                   <div id="javascript" class="i3 myfont spin"><p class="h3 mt-2">JavaScript</p></div>
-                   <div id="jQuery" class="i4 myfont spin"><p class="h3 mt-2">jQuery</p></div>
-                   <div id="Bootstrap" class="i5 myfont spin"><p class="h4 mt-2">Bootstrap</p></div>
-                   <div id="image" class="bottom"><img class="center" src="assets/images/headshot-cutout.png" width="400px" height="400px"></div>
+            <div class="col-md-6 col-sm-6 col-lg-6 jumbotron mt-3">
+                    <article class="email">
+                            <header id="header2">
+                                <section class="contactme">
+                                    <h1>Contact</h1>
+                                </section>
+                            </header>
+                            <hr>
+                            <form method="GET" action="mailto:William.r.small89@gmail.com" enctype="text/plain">
+                                <label id="sender" for="name">Name</label>
+                                <br>
+                                <input class="w-75" type="text" id="sender" name="name" placeholder="John Smith">
+                                <br>
+                                <label  id="email" for="email">Email</label>
+                                <br>
+                                <input class="w-75" type="text" id="email" name="email" placeholder="example@gmail.com">
+                                <br>
+                                <label id="sendermess" for="message">Message</label>
+                                <br>
+                                <input class="w-100" type="text" id="sendermess" name="message" height="200px">
+                                <br>
+                                <input type="submit" id="submit" value="submit">
+                    
+                            </form>
+                    
+                        </article>
             </div>
             <div class="col-md-3 col-sm-3 col-lg-3">
-                <ul class="nav flex-column mt-5 slate w-85 rounded float">
+                <ul class="nav flex-column ml-5 mt-5 slate w-85 rounded float ">
                     <li class="nav-item h2 center mt-5 mb-5">
-                        <a class="nav-link text-dark active myfont"href="portfolio.html">Portfolio</a>
+                        <a class="nav-link text-dark active myfont" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item h2 center mt-5 mb-5">
-                        <a class="nav-link text-dark active myfont" href="contact.html">Contact</a>
+                        <a class="nav-link text-dark active myfont" href=contact.html>Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
 </body>
+
+
+
 
 
 
